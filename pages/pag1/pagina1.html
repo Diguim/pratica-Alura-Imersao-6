@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia 1</title>
+  <link rel="stylesheet" href="pagina1style.css">
+</head>
+
+<body>
+  <div class="container">
+    <a href="/index.html">
+      <button class="btn-link">
+        VOLTAR
+      </button>
+    </a>
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+      alt="">
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+  </a>
+  <div class="infos">
+    <h3>Conversão de:</h3>
+    <p>Dolar para Real</p>
+
+  </div>
+  <div class="conversoes">
+
+    <label for="valueForConvert">Insira o valor em Dolar:</label>
+    <input type="number" id="valueForConvert" name="valueForConvert" min="0">
+    <button type="submit" onclick="converterValor()">Converter</button>
+
+  </div>
+  <div class="result">
+    <h4 id="result"></h4>
+  </div>
+  <script src="/pages/pag1/script1.js"></script>
+</body>
+
+</html>
