@@ -19,7 +19,16 @@
     </button>
   </a>
   <h1>Classificação Alura</h1>
-
+  
+  <div class="inputs">
+    <input type="text" id="inputJogador" class="inputJogador" name="inputJogador" placeholder="Digite o nome do jogador">
+    <input type="submit" onclick="inserirJogador()" class="btn-link">
+  </div>
+  <div>
+    <button class="btn-link" id="playGame" onclick="iniciarJogo()">
+      JOGAR
+    </button>
+  </div>
   <table style="width:100%">
     <thead>
       <tr>
@@ -32,7 +41,7 @@
       </tr>
     </thead>
     <tbody id="tabelaJogadores">
-      
+
     </tbody>
   </table>
   <script src="script5.js"></script>
